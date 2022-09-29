@@ -42,4 +42,4 @@ app.post('/uploadmultiple', upload.array('myFiles', 12), (req, res, next) => {
 
 app.use(express.static('uploads'))
 
-app.listen(3000, () => console.log('Server started on port 3000'));
+app.listen(app.post, () => console.log('Server started on port 3000'));
